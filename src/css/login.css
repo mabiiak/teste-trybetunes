@@ -1,0 +1,37 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.login label, input, button {
+  border-radius: 3px;
+  height: 30px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.login button {
+  background-color: rgb(63, 122, 122);
+  color: white;
+  height: 40px;
+  margin-left: 5%;
+  width: 185.5px;
+}
+
+.search button {
+  background-color: rgb(63, 122, 122);
+  color: white;
+  height: 30px;
+  width: 185.5px;
+}
+
+.login h2 {
+  color: rgb(63, 122, 122);
+  font-size: 31px;
+  margin-left: auto;
+  margin-right: auto;
+}

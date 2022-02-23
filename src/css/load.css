@@ -1,0 +1,8 @@
+.load {
+  border: none;
+  border-radius: 5px;
+}
+
+.load p {
+  color: rgb(158, 211, 206);
+}

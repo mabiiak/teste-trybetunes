@@ -1,0 +1,37 @@
+.content {
+  margin-left: 30px;
+}
+
+.area-search {
+  text-align: center;
+}
+
+.allAbuns {
+  align-items: center;
+  align-self: center;
+  border: 1px solid rgb(63, 122, 122);
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgb(167, 202, 202);
+  display: inline-flex;
+  flex-direction: column;
+  height: 150;
+  margin: 10px;
+  padding: 5px;
+  width: 180px;
+}
+
+.allAbuns a, img {
+  color: black;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.result {
+  text-align: center;
+}
+
+.search input {
+  height: 23px;
+}

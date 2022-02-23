@@ -1,0 +1,36 @@
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.user-info p, h3 {
+  margin: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.informaçoes {
+  margin-top: 10px;
+}
+
+.profile .link {
+  background-color: rgb(75, 116, 116);
+  border: solid 1px black;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgb(167, 202, 202);
+  color: white;
+  height: 60px;
+  margin-top: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.user-info img {
+  background-color: rgb(75, 116, 116);
+  border-radius: 3px;
+  color: white;
+  display: inline;
+  margin-left: 20px;
+  width: 300px;
+}

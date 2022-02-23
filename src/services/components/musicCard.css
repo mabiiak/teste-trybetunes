@@ -1,0 +1,38 @@
+.musicas {
+  display: flex;
+  flex-direction: column;
+}
+
+.track {
+  display: inline;
+}
+
+.content-sound {
+  display: flex;
+}
+
+.content-sound audio {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.text {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text p {
+  margin-bottom: 5.3px;
+  margin-right: 15px;
+  width: 60%;
+}
+
+.content-sound img {
+  margin-left: 5%;
+  margin-top: 0;
+  width: 150px;
+}
