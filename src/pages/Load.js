@@ -6,7 +6,9 @@ class Load extends React.Component {
   render() {
     return (
       <div className="load">
-        <p>Carregando...</p>
+        <div id="animation">
+          <p>...</p>
+        </div>
       </div>
     );
   }
