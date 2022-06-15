@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { getUser } from '../userAPI';
-import Load from '../../pages/Load';
+import { getUser } from '../services/userAPI';
+import Load from '../pages/Load';
 
 import './header.css';
 
@@ -38,8 +38,8 @@ class Header extends React.Component {
         <Link to="/search">
           <h2> TrybeTunnes </h2>
         </Link>
-        { user ? <span></span> : <Load /> }
         <nav>
+        { user ? <span></span> : <Load /> }
           <Link to="/profile">
             <h3> { user } </h3>
           </Link>

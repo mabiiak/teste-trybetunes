@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../services/components/Header';
+import Header from '../components/Header';
 import '../css/search.css';
 
 import searchAlbumsAPIs from '../services/searchAlbumsAPI';
@@ -57,15 +57,15 @@ class Search extends React.Component {
           key={ artistfind.collectionId }
           className="allAbuns"
         >
+          <Link
+            data-testid={ `link-to-album-${artistfind.collectionId}` }
+            to={ `/album/${artistfind.collectionId}` }
+          >
           <img
             alt={ artistfind.artistName }
             src={ artistfind.artworkUrl100 }
           />
 
-          <Link
-            data-testid={ `link-to-album-${artistfind.collectionId}` }
-            to={ `/album/${artistfind.collectionId}` }
-          >
             <p>
               { artistfind.collectionName }
             </p>
@@ -77,35 +77,31 @@ class Search extends React.Component {
 
     const result = (
       <div>
-        <p className="result">
+        <p className='resume'>
           Resultado de álbuns de:
           {` ${find}`}
         </p>
-        <div>
+        <div id="renderAllAbuns">
           { filterArtist }
         </div>
       </div>
     );
 
     return (
-      <div
-        data-testid="page-search"
-        className="search"
-      >
+      <div id="search">
         <Header />
-        <div className="area-search">
+        <div id="results">
           <label htmlFor="search">
             <input
               className="search"
-              data-testid="search-artist-input"
               type="text"
+              id='inputArtist'
               placeholder="Banda ou artista"
               onChange={ this.validadeButton }
               value={ nameFind }
             />
           </label>
           <button
-            data-testid="search-artist-button"
             type="submit"
             disabled={ offButton }
             onClick={ this.searchButton }
@@ -122,7 +118,7 @@ class Search extends React.Component {
           }
           {
             (waitAPI === 'ok' && artist.length === 0)
-            && <p> Nenhum álbum foi encontrado </p>
+            && <p className='resume'> Nenhum álbum foi encontrado </p>
           }
         </div>
       </div>

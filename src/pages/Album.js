@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { addSong, getFavoriteSongs, removeSong } from '../services/favoriteSongsAPI';
-import Header from '../services/components/Header';
+import Header from '../components/Header';
 import getMusics from '../services/musicsAPI';
-import MusicCard from '../services/components/MusicCard';
+import MusicCard from '../components/MusicCard';
 import Load from './Load';
 import '../css/album.css';
 

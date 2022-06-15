@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../services/components/Header';
+import Header from '../components/Header';
 import { getFavoriteSongs, removeSong } from '../services/favoriteSongsAPI';
-import MusicCard from '../services/components/MusicCard';
+import MusicCard from '../components/MusicCard';
 import Load from './Load';
 import '../css/album.css';
 

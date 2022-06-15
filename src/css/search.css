@@ -1,37 +1,75 @@
-/* .content {
-  margin-left: 30px;
+#search{
+  display: flex;
+  flex-direction: column;
 }
 
-.area-search {
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inputArtist {
+  background-color: #E1E1E1;
+  border: none;
+  height: 35px;
+  margin-right: 10px;
+  text-align: center;
+  width: 670px;
+}
+
+#results button {
+  height: 37px;
+  border: none;
+  color: #262626;
+  width: 300px;
+  background-color: #FFA149;;
+  margin-top: 14px;
+}
+
+.resume {
+  color: #FFA149;
+  font-size: 18px;
+  margin-top: 5px;
   text-align: center;
 }
 
-.allAbuns {
-  align-items: center;
-  align-self: center;
-  border: 1px solid rgb(63, 122, 122);
-  border-radius: 3px;
-  box-shadow: 5px 5px 10px rgb(167, 202, 202);
-  display: inline-flex;
-  flex-direction: column;
-  height: 150;
-  margin: 10px;
-  padding: 5px;
-  width: 180px;
+#renderAllAbuns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.allAbuns a, img {
-  color: black;
+.allAbuns{
+  align-items: center;
+  display: flex;
+  background-color: #E1E1E1;
+  border-radius: 5%;
+  flex-direction: column;
+  height: 350px;
+  padding-bottom: 15px;
+  margin: 10px;
+  width: 220px;
+}
+
+.allAbuns img {
   font-size: 15px;
-  margin-top: 15px;
-  padding: 2px;
+  padding: 25px;
+  width: 170px;
+  height: 170px;
+}
+
+.allAbuns p {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.allAbuns a {
   text-decoration: none;
 }
 
-.result {
-  text-align: center;
-}
-
-.search input {
-  height: 23px;
-} */

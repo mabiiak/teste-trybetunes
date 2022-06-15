@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
-import Header from '../services/components/Header';
+import Header from '../components/Header';
 import { getUser, updateUser } from '../services/userAPI';
 import Load from './Load';
 import '../css/profile-edit.css';
