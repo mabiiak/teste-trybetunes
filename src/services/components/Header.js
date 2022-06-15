@@ -34,25 +34,19 @@ class Header extends React.Component {
     const { user } = this.state;
 
     return (
-      <header data-testid="header-component" className="header">
-        <div className="first-line">
+      <header id="header">
+        <Link to="/search">
           <h2> TrybeTunnes </h2>
-          <div className="user">
-            { user ? <span> </span> : <Load /> }
-
-            <strong>
-              <p data-testid="header-user-name" className="name">
-                { user }
-              </p>
-            </strong>
-
-          </div>
-        </div>
-        <div className="links">
-          <Link data-testid="link-to-favorites" to="/favorites"> Favoritos </Link>
-          <Link to="/profile" data-testid="link-to-profile"> Perfil </Link>
-          <Link to="/search" data-testid="link-to-search"> Pesquisar </Link>
-        </div>
+        </Link>
+        { user ? <span></span> : <Load /> }
+        <nav>
+          <Link to="/profile">
+            <h3> { user } </h3>
+          </Link>
+          <Link to="/favorites">
+            <h3> Favoritos </h3>
+          </Link>
+        </nav>
       </header>
     );
   }
