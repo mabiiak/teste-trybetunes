@@ -1,16 +1,21 @@
-# Trybetunes
 
-Projeto feito durante o curso de desenvolvimento Web na Trybe, no módulo de Front-End.
+Bem vindo ao projeto Trybetunes!
+Este é um projeto que foi desenvolvido durante o curso de Desenvolvimento Web na Trybe.
 
-Ele tinha como objetivo criar uma aplicação que busque musicas por artistas/banda e seja capaz de armazenar as favoritas do usuario.
+Habilidades Desenvolvidas
 
-Nele eu pude compreender melhor os ciclos de vida de um componente React, criar rotas, fazer requisições e consumir dados de uma API.
+    - Consumir dados vindos de uma API;
 
-## Futuras melhorias
-⬜ Em algumas telas não fiquei satisfeita com meu css, em alguns momentos o botão "favoritar" descola os elementos, criando uma "animação" indesejada.
+    - Utilizar os ciclos de vida de um componente React;
 
-⬜ Também pretendo mudar a aparencia da tela de login, talvez utilizando styled-components.
+    - Utilizar a função setState;
 
-⬜ E futuramente, implementar a criação e validação de um usuario.
+    - Criar rotas utilizando os componentes BrowserRouter, Switch e Route corretamente;
 
-> _iniciado em 20/11/2021_
+Funções
+Neste projeto foi desenvolvido um site que busca artistas e retorna seus álbuns, permitindo o usuário visualizar as informações sobre o álbum, executar uma prévia de cada música e a favoritar.
+
+Desenvolvimento
+Antes de começar a desenvolver
+
+⚠️ Esse README está passando por alterações, atualize a página dentro de alguns minutos ⚠️
