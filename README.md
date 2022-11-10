@@ -69,10 +69,8 @@ Neste projeto foi desenvolvido um site que busca artistas e retorna seus álbuns
     ✅ 4. Crie os links de navegação no cabeçalho
 
     ✅ 5. Crie o formulário para pesquisar artistas
-Este formulário deve conter um input e um botão para que seja possível pesquisar os álbums de uma banda ou artista. Crie o formulário dentro do componente `Search`, que é renderizado na rota `/search`.
 
     ✅ 6. Faça a requisição para pesquisar artistas
-Com a estrutura da tela de pesquisa criada, agora é hora de fazer uma requisição e receber a lista de álbums da banda ou artista pesquisada.
 
     ✅ 7. Crie a lista de músicas do álbum selecionado
 
@@ -91,7 +89,6 @@ Com a estrutura da tela de pesquisa criada, agora é hora de fazer uma requisiç
     ✅ 13. Crie a exibição de perfil
 
     ✅ 14. Crie o formulário de edição de perfil
-Crie o formulário de edição de perfil dentro do componente `ProfileEdit`, que é renderizado na rota `/profile/edit`.
 
 ---
 
