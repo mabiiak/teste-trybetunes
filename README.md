@@ -1,5 +1,5 @@
 
-Bem vindo ao projeto Trybetunes!
+# Bem vindo ao projeto Trybetunes!
 Este é um projeto que foi desenvolvido durante o curso de Desenvolvimento Web na Trybe.
 
 Habilidades Desenvolvidas
